@@ -3,8 +3,8 @@ from telegram import Bot, Update
 from telegram.ext import Dispatcher, MessageHandler, Filters
 import os
 
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'  # замените на свой токен от BotFather
-bot = Bot(token=TOKEN)
+TOKEN = '8066144176:AAGDSb9GtVzGLtDE20a4GW8QX2xTO0isAAc'  # замените на свой токен от BotFather
+bot = Bot(token=8066144176:AAGDSb9GtVzGLtDE20a4GW8QX2xTO0isAAc)
 
 app = Flask(__name__)
 
