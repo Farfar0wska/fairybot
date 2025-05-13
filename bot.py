@@ -3,8 +3,6 @@ from flask import Flask, request
 from telegram import Bot, Update
 from telegram.ext import Dispatcher, MessageHandler, Filters
 
-TOKEN = '8066144176:AAGDSb9GtVzGLtDE20a4GW8QX2xTO0isAAc' 
-
 TOKEN = os.getenv("TOKEN")
 if not TOKEN:
     raise ValueError("❌ Telegram TOKEN is not set in environment variables")
