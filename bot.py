@@ -4,7 +4,7 @@ from telegram.ext import Dispatcher, MessageHandler, Filters
 import os
 
 TOKEN = '8066144176:AAGDSb9GtVzGLtDE20a4GW8QX2xTO0isAAc'  # замените на свой токен от BotFather
-bot = Bot(token=8066144176:AAGDSb9GtVzGLtDE20a4GW8QX2xTO0isAAc)
+bot = Bot(token=TOKEN)
 
 app = Flask(__name__)
 
